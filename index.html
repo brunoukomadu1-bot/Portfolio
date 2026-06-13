@@ -45,12 +45,6 @@
         </ul>
     </nav>
      <main>
-            <section class="herosection">
-                <div class="title">
-                    <h1>i'm BRUNO</h1>
-                    <p> a web developer<p>
-                </div>
-            </section>
             <section class="herosection1">
                 <div class="title">
                     <h1>i'm BRUNO</h1>
@@ -62,37 +56,91 @@
             </section>
             <section class="card-section">
                 <div class="card-container">
+                    <!-- CARD ONE -->
         <div class="card">
            <div class="card-img-container">
               <img class="card-img" src="images/Todo.png">
             </div>
             <div class="card-content">
-                <h3>Todo app</h3>
-                <p>Explore the art of CSS animations and bring your web pages to life with engaging and eye-catching effects</p>
+                <h3 class="project-title">Todo app</h3>
+                <p id="desc">conquer your day, one task at a time. Streamline your workflow, set reminders, and crush your goals with todo app</p>
+            </div>
+            <!-- TODO BUTTON -->
+            <div class=" btn">
+            <a class="sourceurl" href="https://github.com/brunoukomadu1-bot/js-todo">
+                <button class="my-btn">Github</button>
+            </a>
+            <a href="https://bruno-todo-list.netlify.app/">
+                <button class="my-btn">Live</button>
             </div>
         </div>
-        <div class="card">
-            <div class="card-img-container">
-              <img class="card-img" src="images/Counter.png">
-            </div>
-            
-            <div class="card-content">
-                <h3>Counter App</h3>
-                <p>Explore the art of CSS animations and bring your web pages to life with engaging and eye-catching effects</p>
-            </div>
-        </div>
-         <div class="card">
-            <div class="card-img-container">
-              <img class="card-img" src="images/search section.png">
-            </div>
-            <div class="card-content">
-                <h3>Search Section </h3>
-                <p>Explore the art of CSS animations and bring your web pages to life with engaging and eye-catching effects</p>
-            </div>
-        </div>
+        
     </div>
             </section>
+        </main>
+        <main> 
+                <section class="contact-form">
+             <form action="https://formspree.io/f/mzdaekzw" method="POST">
+    <h2 class="contact1">Get in Touch</h2>
+    <input type="number" name="first" placeholder="first Name" required>
+    <input type="text" name="Last" placeholder="Last Name" autocomplete="off" >
+    <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+    <textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea>
+    <button type="Submit">Send Message</button>
+    </form>
+        </section>
         </main>
         <script src="index.js"></script>
 
     </body>
+            <footer>
+                <div class="footer-container">
+                    <!-- <!Brand> -->
+                     <div class="footer-section">
+                        <h2>MyWebsite</h2>
+                        <p>
+                            We create modern and responsive website with clean user interfaces and smooth user expiriences.
+                        </p>
+
+                        <div class="socials">
+                            <a href="#">F</a>
+                            <a href="#">T</a>
+                            <a href="#">I</a>
+                            <a href="#">L</a>
+                        </div>
+                     </div>
+                     <!-- Quick Links -->
+                      <div class="footer-section">
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                      </div>
+                      <!-- Service -->
+                       <div class="footer-section">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#"></a>Web Design</li>
+                            <li><a href="#"></a>Frontend Development</li>
+                            <li><a href="#"></a>Backend Development</li>
+                            <li><a href="#"></a>SEO Optimization</li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                       </div>
+                       <!-- Contact -->
+                        <div class="footer-section">
+                            <h3>Contact</h3>
+                            <ul>
+                                <li>Email: info@example.com</li>
+                                <li>Phone: +123 456 7890</li>
+                                <li>Location: Bamenda, Cameroon</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy;2026 MyWebsite. All Rights Reserved</p>
+                </div>
+            </footer>
