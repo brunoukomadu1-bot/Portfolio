@@ -208,3 +208,42 @@ function getsourseUrl(){
   return getsourseUrl
 }
 getsourseUrl()
+
+
+
+//-------------------------------------------------------------DISPLAY PROJECTS
+
+function displayProjects(projects) {
+  const container = document.querySelector('.cards-container');
+  if (!container) return;
+  
+  container.innerHTML = ''; // clear existing cards
+  
+  const projetstToDisplay = projects.map(project => {
+     const liveBtn = project.liveUrl 
+      ? `<a class="sourceurl" href="${project.liveUrl}" target="_blank">
+           <button class="my-btn">Live</button>
+         </a>`
+      : '';
+    const card = `<div class="card">
+                <div class="card-img-container">
+                    <img class="card-img" src="${project.img}" alt="${project.name}">
+                </div>
+                <div class="card-content">
+                    <h3 class="project-title">${project.name}</h3>
+                    <p class="desc">${project.desc}</p>
+                </div>
+                <!-- TO DO BUTTON -->
+                 <div class="btn">
+                    <a class="sourceurl" href="${project.sourseUrl}">
+                    <button class="my-btn">github</button>
+                    </a>
+                    ${liveBtn}
+                </div>
+           </div>`
+           return card;
+  });
+console.log('projects', projetstToDisplay)
+  container.innerHTML = projetstToDisplay;
+}
+displayProjects(data)

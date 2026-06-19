@@ -147,8 +147,6 @@ ul {
     opacity: 0.8; 
 }
 
-
-
 @media only screen and (max-width: 794px){
     .nav-main-menu{
         display: none;
@@ -185,7 +183,7 @@ ul {
     
 }
 
-.card-container {
+.cards-container {
     max-width: 90%;
     margin: 100px auto;
     display: flex;
@@ -239,11 +237,6 @@ ul {
     line-height: 1.6;
 }
 
-@media screen and (max-width: 768px) {
-    .card {
-        flex: 100%;
-    }
-}
 
 .sub-title h2 {
     text-align: center;
@@ -352,7 +345,7 @@ footer{
 }
 
 .footer-section ul li a:hover {
-    color:#38bdf8
+    color:#38bdf8;
     padding-left:5px
 }
 
@@ -388,9 +381,19 @@ footer{
     font-size:14px;
 }
 
+.my-btn {
+    display: flex;
+    justify-content: center;
+    display: inline;
+}
+
 /*Mobile*/
-@media(max-width:600px){
-    footer{
+@media screen and (max-width: 768px) {
+    .card {
+        flex: 100%;
+    }
+
+     footer{
         padding:40px 20px;
     }
 
@@ -400,10 +403,8 @@ footer{
     .social{
         justify-content:center;
     }
-}
 
-.my-btn {
-    display: flex;
-    justify-content: center;
-    display: inline;
+    .contact1 {
+    font-size: 1.5rem;
+}
 }
