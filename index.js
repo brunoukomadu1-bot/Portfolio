@@ -64,21 +64,21 @@
 
 const data = [
   {
-    liveUrl: 'https://betxxx.netlify.app/',
+    liveUrl: 'https://bruno-counter.netlify.app/',
     sourseUrl: 'https://github.com/brunoukomadu1-bot/js-todo',
     img: 'images/Todo.png',
     name: 'Todo app',
     desc: `conquer your day, one task at a time. Streamline your workflow, set reminders, and crush your goals with todo app`,
   },
   {
-    liveUrl: 'https://betxxx.netlify.app/',
+    liveUrl: 'https://bruno-todo-list.netlify.app/',
     sourseUrl: 'https://github.com/brunoukomadu1-bot/Counter-app',
     img: 'images/Counter.png',
     name: 'Java script counter',
     desc: `From 0-10 with just a press`,
   },
   {
-    liveUrl: 'https://betxxx.netlify.app/',
+    liveUrl: 'https://brunosearch.netlify.app/',
     sourseUrl: 'https://github.com/brunoukomadu1-bot/Search-site',
     img: 'images/search section.png',
     name: 'Search Section',
