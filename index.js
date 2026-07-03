@@ -84,6 +84,27 @@ const data = [
     name: 'Search Section',
     desc: `Search anything you wish`,
   },
+  {
+    liveUrl: 'https://bruno-weather-app.netlify.app/',
+    sourseUrl: 'https://github.com/brunoukomadu1-bot/Weather-App.git',
+    img: 'images/weather app.png',
+    name: 'Weather App',
+    desc: `Your daily weather simplified. See if it'll rain, how it gets and when it stops. Its fast and clean, no stress`,
+  },
+  {
+    liveUrl: 'https://bruno-toast-notification.netlify.app/',
+    sourseUrl: 'https://github.com/brunoukomadu1-bot/Toast-Notification.git',
+    img: 'images/toast-notification.png',
+    name: 'Toast notification',
+    desc: `Clean, responsive alerts at your fingertips. Deliver instant, elegant user feedback for actions like successful saves, form errors, or system updates without disrupting the workflow.`,
+  },
+  {
+    liveUrl: 'https://bruno-toast-notification.netlify.app/',
+    sourseUrl: 'https://github.com/brunoukomadu1-bot/Quote_Generator-app.git',
+    img: 'images/Quote-generator.png',
+    name: 'Quote Generator',
+    desc: `Inspire your day with a click. Generate random quotes to uplift, motivate, and spark creativity. Perfect for daily inspiration or sharing wisdom with friends.`,
+  },
   
 ];
 
